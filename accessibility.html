@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessibility | VECTR Private Limited</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Accessibility statement for VECTR Private Limited. Learn about our commitment to making our website and services accessible to everyone." />
+  <meta name="keywords" content="VECTR accessibility, inclusive design, WCAG compliance" />
+  <meta name="author" content="VECTR Private Limited" />
+
+  <!-- Icons & Styles -->
+  <link rel="icon" href="./assets/logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- --- SITE STICKY HEADER --- -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <a href="index.html" class="logo-link" aria-label="VECTR Private Limited Home">
+        <img src="./assets/logo.png" alt="VECTR Logo" class="logo-icon" />
+        <span class="logo-text">Vectr</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" role="navigation" aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Button (Mobile Drawer Trigger) -->
+      <button class="hamburger" aria-label="Open Mobile Menu" aria-controls="mobile-nav" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Overlay Menu -->
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation">
+    <ul>
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="services.html" class="nav-link">Services</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- --- MAIN WORKSPACE --- -->
+  <main id="wcag-main-content">
+
+    <section class="section section-alt" style="padding: 5rem 2rem 4rem 2rem; border-bottom: 2px solid black;">
+      <div class="section-container" style="max-width: 900px; text-align: center;">
+        <h1 class="reveal"
+          style="font-size: 4rem; font-weight: 800; text-transform: uppercase; letter-spacing: -2px; margin-bottom: 1.5rem;">
+          Accessibility</h1>
+      </div>
+    </section>
+    <section class="section">
+      <div class="section-container reveal"
+        style="max-width: 800px; margin: 0 auto; line-height: 1.7; font-weight: 500; font-size: 1.2rem; min-height: 40vh;">
+        <p style="margin-bottom: 1.5rem;">VECTR Private Limited is committed to ensuring that our website and delivery
+          services are accessible to everyone, including people with disabilities. We strive to meet WCAG 2.1 Level AA
+          standards across our digital platforms.</p>
+        <p style="margin-bottom: 1.5rem;">Our website is designed with clear navigation, readable fonts, high-contrast
+          visuals, and keyboard-friendly interactions. We continuously review and improve our accessibility practices to
+          provide an inclusive experience for all users.</p>
+        <p>If you encounter any accessibility issues or have suggestions for improvement, please contact us at
+          vectrusdt@gmail.com or call +91 7054410388. We value your feedback and are committed to making our services
+          available to all.</p>
+      </div>
+    </section>
+  </main>
+  <!-- --- SITE FOOTER --- -->
+  <footer class="site-footer" id="wcag-footer">
+    <div class="footer-container">
+
+      <!-- Footer Top Links -->
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo-link">
+            <img src="./assets/logo.png" alt="VECTR Logo" class="logo-icon" />
+            <span class="logo-text">Vectr</span>
+          </a>
+          <p class="footer-brand-desc">Reliable Pan India delivery and logistics services by VECTR Private Limited.</p>
+
+          <!-- Newsletter Inline -->
+          <div style="margin-top: 1rem;">
+            <span class="footer-links-title" style="font-size: 0.8rem; display: block; margin-bottom: 0.5rem;">Subscribe
+              to Insights</span>
+            <form class="newsletter-form" action="#" method="POST"
+              onsubmit="event.preventDefault(); alert('Subscribed to VECTR Insights!');">
+              <input class="newsletter-input" type="email" placeholder="Your Email" aria-label="Email Address"
+                required />
+              <button class="newsletter-btn" type="submit">Join</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <span class="footer-links-title">Company</span>
+          <ul>
+            <li><a href="about.html" class="footer-link">About VECTR</a></li>
+            <li><a href="about.html#team" class="footer-link">Our Team</a></li>
+            <li><a href="about.html#story" class="footer-link">Our Story</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <span class="footer-links-title">Services</span>
+          <ul>
+            <li><a href="services.html#express" class="footer-link">VECTR Express</a></li>
+            <li><a href="services.html#panindia" class="footer-link">Pan India Delivery</a></li>
+            <li><a href="services.html#bulk" class="footer-link">Bulk Shipping</a></li>
+            <li><a href="services.html#ecommerce" class="footer-link">eCommerce Shipping</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <span class="footer-links-title">Support</span>
+          <ul>
+            <li><a href="contact.html" class="footer-link">Contact VECTR</a></li>
+            <li><a href="contact.html#faq" class="footer-link">Inquiry FAQs</a></li>
+            <li><a href="services.html#calc" class="footer-link">Rate Estimator</a></li>
+            <li><a href="contact.html#office" class="footer-link">Our Office</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+
+
+    </div>
+  </footer>
+
+  <!-- --- JAVASCRIPT --- -->
+  <script src="script.js"></script>
+</body>
+
+</html>

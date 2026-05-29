@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Vectr Pvt. Ltd.</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Explore Vector's global logistics services: Express delivery, Global Forwarding, Supply Chain systems, and eCommerce solutions, featuring our interactive rate calculator." />
+  <meta name="keywords"
+    content="express courier, air freight, warehousing, shipping calculator, cargo tracking, e-commerce shipping" />
+  <meta name="author" content="Vector Pvt. Ltd." />
+
+  <!-- Icons & Styles -->
+  <link rel="icon" href="./assets/logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- --- SITE STICKY HEADER --- -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <a href="index.html" class="logo-link" aria-label="Vector Pvt. Ltd. Home">
+        <img src="./assets/logo.png" alt="Vector Logo" class="logo-icon" />
+        <span class="logo-text">Vectr</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" role="navigation" aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link active">Services</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Button (Mobile Drawer Trigger) -->
+      <button class="hamburger" aria-label="Open Mobile Menu" aria-controls="mobile-nav" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Overlay Menu -->
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation">
+    <ul>
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="services.html" class="nav-link active">Services</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- --- MAIN WORKSPACE --- -->
+  <main id="wcag-main-content">
+
+    <!-- --- PAGE HERO HEADER --- -->
+    <section class="section section-alt" style="padding: 5rem 2rem 4rem 2rem;">
+      <div class="section-container" style="max-width: 900px; text-align: center;">
+        <span class="overline reveal">What We Do</span>
+        <h1 class="reveal" style="font-size: 3.5rem; font-weight: 700; margin-bottom: 1.5rem;">Precision Capabilities
+        </h1>
+        <p class="reveal" style="font-size: 1.2rem; max-width: 700px; margin: 0 auto; line-height: 1.6;">Discover
+          Vector's comprehensive suite of logistics offerings. From time-critical express shipments to intercontinental
+          air-sea cargo lanes and fully automated inventory nodes.</p>
+      </div>
+    </section>
+
+    <!-- --- SERVICE DIVISIONS GRID --- -->
+    <section class="section">
+      <div class="grid-2 align-center reveal" id="express" style="margin-bottom: 5rem;">
+        <div style="height: 380px; overflow: hidden; position: relative;">
+          <img src="./assets/hero_placeholder.png" alt="Express flight representing Vector Express"
+            style="width: 100%; height: 100%; object-fit: cover; filter: grayscale(100%) contrast(110%);" />
+        </div>
+        <div style="padding-left: 2rem;">
+          <span class="overline">Global Delivery</span>
+          <h2 class="section-title" style="font-size: 2.2rem; margin-bottom: 1.2rem;">Vector Express</h2>
+          <p style="margin-bottom: 1.5rem; line-height: 1.7;">Vector Express offers premium, time-critical courier
+            shipping with zero-latency guarantees. Connected across all major flight hubs and railway nodes, we deliver
+            documents and goods with seamless custom pre-clearance and absolute reliability.</p>
+          <ul
+            style="list-style: none; display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 2rem; font-weight: 500;">
+            <li>✦ Next-Day Global Delivery Guaranteed</li>
+            <li>✦ Full End-to-End Real-Time GPS Tracking</li>
+            <li>✦ Standard Micro-Friction Border Clearing</li>
+          </ul>
+          <a href="#calc" class="btn btn-solid">Calculate Express Rate</a>
+        </div>
+      </div>
+
+      <div class="grid-2 align-center reveal" id="forwarding" style="margin-bottom: 5rem;">
+        <div style="padding-right: 2rem; order: 2;">
+          <span class="overline">Sea &amp; Air Logistics</span>
+          <h2 class="section-title" style="font-size: 2.2rem; margin-bottom: 1.2rem;">Global Forwarding</h2>
+          <p style="margin-bottom: 1.5rem; line-height: 1.7;">For large-scale, high-density freight operations, Vector
+            Global Forwarding operates robust air, ocean, and heavy rail container transits. We handle bulk shipping
+            requirements, ensuring seamless border compliance and route optimizations.</p>
+          <ul
+            style="list-style: none; display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 2rem; font-weight: 500;">
+            <li>✦ Multi-Modal Cargo Consolidation</li>
+            <li>✦ Cold-Chain &amp; Sensitive Cargo Segments</li>
+            <li>✦ Deep Industrial Regulatory Compliance</li>
+          </ul>
+          <a href="#calc" class="btn btn-solid">Estimate Freight Costs</a>
+        </div>
+        <div style="height: 380px; overflow: hidden; position: relative; order: 1;">
+          <img src="./assets/hero_placeholder.png" alt="High capacity freight cargo ship representing Global Forwarding"
+            style="width: 100%; height: 100%; object-fit: cover; filter: grayscale(100%) contrast(110%);" />
+        </div>
+      </div>
+
+      <div class="grid-2 align-center reveal" id="supplychain" style="margin-bottom: 5rem;">
+        <div style="height: 380px; overflow: hidden; position: relative;">
+          <img src="./assets/hero_placeholder.png" alt="Modern automated robotics fulfillment center"
+            style="width: 100%; height: 100%; object-fit: cover; filter: grayscale(100%) contrast(110%);" />
+        </div>
+        <div style="padding-left: 2rem;">
+          <span class="overline">Contract Logistics</span>
+          <h2 class="section-title" style="font-size: 2.2rem; margin-bottom: 1.2rem;">Supply Chain Labs</h2>
+          <p style="margin-bottom: 1.5rem; line-height: 1.7;">From automated storage to intelligent packing, Supply
+            Chain Labs acts as the smart brain for merchant operations. We optimize raw warehousing coordinates and
+            manage third-party distribution flows using advanced software frameworks.</p>
+          <ul
+            style="list-style: none; display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 2rem; font-weight: 500;">
+            <li>✦ Automated Grid Fulfillment &amp; Packing</li>
+            <li>✦ Dynamic Storage Allocation Math</li>
+            <li>✦ Seamless ERP System API Integrations</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline">Consult Operations Team</a>
+        </div>
+      </div>
+
+      <div class="grid-2 align-center reveal" id="ecommerce" style="margin-bottom: 2rem;">
+        <div style="padding-right: 2rem; order: 2;">
+          <span class="overline">Merchant Logistics</span>
+          <h2 class="section-title" style="font-size: 2.2rem; margin-bottom: 1.2rem;">eCommerce Networks</h2>
+          <p style="margin-bottom: 1.5rem; line-height: 1.7;">Seamlessly connect retail platforms to shoppers globally.
+            eCommerce Networks provide customized cross-border delivery corridors, frictionless return portals, and
+            low-latency delivery paths tailored for large-volume shipping profiles.</p>
+          <ul
+            style="list-style: none; display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 2rem; font-weight: 500;">
+            <li>✦ Rapid Cross-Border Package Corridors</li>
+            <li>✦ Elegant White-Label Tracking Interfaces</li>
+            <li>✦ Optimized Last-Mile Fulfillment Networks</li>
+          </ul>
+          <a href="#calc" class="btn btn-solid">Query eCommerce Estimate</a>
+        </div>
+        <div style="height: 380px; overflow: hidden; position: relative; order: 1;">
+          <img src="./assets/hero_placeholder.png" alt="Sleek cargo loader in warehouse representing e-commerce"
+            style="width: 100%; height: 100%; object-fit: cover; filter: grayscale(100%) contrast(110%);" />
+        </div>
+      </div>
+    </section>
+
+    <!-- --- INTERACTIVE FREIGHT ESTIMATOR --- -->
+    <section class="section section-alt" id="calc">
+      <div class="section-container">
+        <div class="calculator-section reveal">
+          <span class="overline" style="text-align: center; display: block;">Instant Valuation</span>
+          <h2 class="calculator-title">Freight Rate Estimator</h2>
+          <p class="calculator-subtitle">Simulate logistics pricing using our live formula math. Adjust your parameters
+            to model specific shipping costs.</p>
+
+          <form id="freight-calc-form" novalidate>
+            <div class="calc-form-grid">
+
+              <!-- Service Selection -->
+              <div class="form-group">
+                <label class="form-label" for="calc-service">Select Service Division</label>
+                <select class="form-select" id="calc-service" required>
+                  <option value="express">Vector Express (Air Priority)</option>
+                  <option value="forwarding">Global Forwarding (Air/Sea Freight)</option>
+                  <option value="ecommerce">Vector eCommerce (Courier Parcels)</option>
+                  <option value="supplychain">Supply Chain Labs (Fulfillment)</option>
+                </select>
+              </div>
+
+              <!-- Speed Selection -->
+              <div class="form-group">
+                <label class="form-label" for="calc-speed">Shipping Speed Velocity</label>
+                <select class="form-select" id="calc-speed" required>
+                  <option value="standard">Standard Velocity (3-5 Days)</option>
+                  <option value="express">Priority Express Velocity (1-2 Days)</option>
+                  <option value="economy">Economy Saver Velocity (7-12 Days)</option>
+                </select>
+              </div>
+
+              <!-- Origin Selection -->
+              <div class="form-group">
+                <label class="form-label" for="calc-origin">Origin Operations Node</label>
+                <select class="form-select" id="calc-origin" required>
+                  <option value="europe">Europe (Bonn Hub)</option>
+                  <option value="northamerica">North America (New York Node)</option>
+                  <option value="asia">Asia (Singapore Node)</option>
+                  <option value="latinamerica">Latin America (Panama Hub)</option>
+                  <option value="middleeast">M. East &amp; Africa (Dubai Node)</option>
+                </select>
+              </div>
+
+              <!-- Destination Selection -->
+              <div class="form-group">
+                <label class="form-label" for="calc-destination">Destination Node</label>
+                <select class="form-select" id="calc-destination" required>
+                  <option value="northamerica">North America (New York Node)</option>
+                  <option value="europe">Europe (Bonn Hub)</option>
+                  <option value="asia">Asia (Singapore Node)</option>
+                  <option value="latinamerica">Latin America (Panama Hub)</option>
+                  <option value="middleeast">M. East &amp; Africa (Dubai Node)</option>
+                </select>
+              </div>
+
+              <!-- Weight Slider -->
+              <div class="form-group form-group-full">
+                <label class="form-label" for="calc-weight">Package / Freight Weight</label>
+                <div class="range-container">
+                  <input class="range-input" type="range" id="calc-weight" min="1" max="500" value="25"
+                    aria-valuemin="1" aria-valuemax="500" aria-valuenow="25" />
+                  <span class="range-val" id="weight-val">25 kg</span>
+                </div>
+              </div>
+
+            </div>
+
+            <div style="text-align: center; margin-bottom: 2.5rem;">
+              <button class="btn btn-solid" type="submit" style="min-width: 250px;">Estimate Logistics Cost</button>
+            </div>
+          </form>
+
+          <!-- Calculations Output Panel -->
+          <div class="calc-results" id="calc-results" aria-live="polite">
+            <div class="results-header">
+              <span class="results-title">Logistical Cost Valuation</span>
+              <div class="cost-display" id="res-cost">€0.00</div>
+            </div>
+
+            <div class="results-breakdown">
+              <div>
+                <div class="breakdown-label">Division</div>
+                <div class="breakdown-val" id="res-service">-</div>
+              </div>
+              <div>
+                <div class="breakdown-label">Transit Velocity</div>
+                <div class="breakdown-val" id="res-transit">-</div>
+              </div>
+              <div>
+                <div class="breakdown-label">Operational Route</div>
+                <div class="breakdown-val" id="res-route">-</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- --- SITE FOOTER --- -->
+  <footer class="site-footer" id="wcag-footer">
+    <div class="footer-container">
+
+      <!-- Footer Top Links -->
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo-link">
+            <img src="./assets/logo.png" alt="Vector Logo" class="logo-icon" />
+            <span class="logo-text">Vector</span>
+          </a>
+          <p class="footer-brand-desc">Connecting global businesses with premium, zero-latency supply chain networks and
+            high-fidelity logistics reliability.</p>
+
+          <!-- Newsletter Inline -->
+          <div style="margin-top: 1rem;">
+            <span class="footer-links-title" style="font-size: 0.8rem; display: block; margin-bottom: 0.5rem;">Subscribe
+              to Insights</span>
+            <form class="newsletter-form" action="#" method="POST"
+              onsubmit="event.preventDefault(); alert('Subscribed to Vector Insights!');">
+              <input class="newsletter-input" type="email" placeholder="Corporate Email"
+                aria-label="Corporate Email Address" required />
+              <button class="newsletter-btn" type="submit">Join</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <span class="footer-links-title">Company</span>
+          <ul>
+            <li><a href="about.html" class="footer-link">About Vector</a></li>
+            <li><a href="about.html#strategy" class="footer-link">Our Strategy 2030</a></li>
+            <li><a href="about.html#management" class="footer-link">Board of Management</a></li>
+            <li><a href="about.html#timeline" class="footer-link">History &amp; Milestones</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <span class="footer-links-title">Services</span>
+          <ul>
+            <li><a href="services.html#express" class="footer-link">Vector Express</a></li>
+            <li><a href="services.html#forwarding" class="footer-link">Global Forwarding</a></li>
+            <li><a href="services.html#supplychain" class="footer-link">Supply Chain Labs</a></li>
+            <li><a href="services.html#ecommerce" class="footer-link">eCommerce Networks</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <span class="footer-links-title">Support</span>
+          <ul>
+            <li><a href="contact.html" class="footer-link">Contact Vector</a></li>
+            <li><a href="contact.html#faq" class="footer-link">Inquiry FAQs</a></li>
+            <li><a href="services.html#calc" class="footer-link">Rate Estimator</a></li>
+            <li><a href="contact.html#offices" class="footer-link">Global Nodes Grid</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Vector Pvt. Ltd. All rights reserved. Premium Monochrome Systems.</p>
+        <ul class="footer-bottom-links">
+          <li><a href="privacy.html" class="footer-bottom-link">Privacy &amp; Cookies</a></li>
+          <li><a href="terms.html" class="footer-bottom-link">Terms of Use</a></li>
+          <li><a href="accessibility.html" class="footer-bottom-link">Accessibility Audit</a></li>
+          <li><a href="carbon.html" class="footer-bottom-link">Carbon Audits</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- --- JAVASCRIPT --- -->
+  <script src="script.js"></script>
+</body>
+
+</html>
